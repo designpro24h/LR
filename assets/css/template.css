@@ -2020,6 +2020,8 @@ a.btn-social i {
 /* owl-nav */
 
 @media screen and (max-width: 1679px){
+	 .visible-pc{display:none!important;}
+	 
 	.caption-thumbs{
 		width: 60%;
 		right: 0;
@@ -2697,7 +2699,7 @@ a.btn-social i {
         padding-top: 60px;
         box-sizing: border-box;
     }
-    .nav-global__inner {
+    .nav-global_inner {
         overflow-y: scroll;
         height: calc(100% - 51px);
     }
@@ -2711,6 +2713,7 @@ a.btn-social i {
         width: 1em;
         margin-right: .2em;
         text-align: center;
+		vertical-align: middle;
         font-variant: normal;
         text-transform: none;
         line-height: 1em;
@@ -2719,6 +2722,7 @@ a.btn-social i {
         -moz-osx-font-smoothing: grayscale;
         content: '\e812';
         font-size: 0.6em;
+		
     }
     .nav-global li.dropdown-mb:before{
         display: none;
@@ -2745,6 +2749,9 @@ a.btn-social i {
         padding: 0 15px;
         display: block;
     }
+	 .menu_main > li:first-child a{
+		 padding-top:0;
+	 }
     .menu_top li,
     .menu_main li{
         display: block;
@@ -2777,6 +2784,19 @@ a.btn-social i {
 	}
 	.header {
 		background: #e6ebee;
+		width: 100%;
+		position: fixed;
+		z-index: 20;
+		height: 51px;
+		box-sizing: border-box;
+		
+	}
+	.header__menu {
+		margin-top: 15px;
+		
+	}
+	.header {
+		background: #e6ebee;
 	}
 	.logo_site {
 		padding: 17px 20px;
@@ -2788,6 +2808,13 @@ a.btn-social i {
 	.logo_site a img {
 		width: 100%;
 		height: auto;
+	}
+	.nav-global {
+		padding:0;
+		top:51px;
+	}
+	#main-banner	{
+		padding-top:50px;
 	}
 	#main-banner	
 	{
