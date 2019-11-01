@@ -2366,7 +2366,10 @@ a.btn-social i {
     
 
     } 
-   
+   .news-wp-1 .article-news-titles, .news-wp-2 .article-news-titles, .news-wp-3 .article-news-titles, .news-wp-4 .article-news-titles, .news-wp-5 .article-news-titles {
+		padding-top: 0px;
+		margin-bottom: 20px;
+	}
   
    
 }  
@@ -2923,6 +2926,8 @@ a.btn-social i {
 	#pick-up .slick-slider{
 		margin-bottom: 90px;
 	}
+	}
+	.news-wp-4 .article-news-btnread,
 	.article-news-btnread {
 		padding-top: 62px;
 		
