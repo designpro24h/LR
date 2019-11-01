@@ -2077,7 +2077,8 @@ a.btn-social i {
         min-height: 650px;
     }
 	.news-wp-5 .article-news-thumbs{
-        width: 43.952%;
+        width: 50.952%;
+		padding-top: 15px;
     }
     .news-wp-5 .article-news {
             min-height: 850px;
