@@ -2083,6 +2083,10 @@ a.btn-social i {
 		position: absolute;
 		right: 0px;
 	}
+	.title .btn.btn-sm {
+		margin-left: 10px;
+		width: 75px;
+	}
 }
 @media screen and (max-width: 1099px){
 	 #slides .slick-list {
