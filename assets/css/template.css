@@ -216,6 +216,9 @@ article, aside, footer, header, small, nav, section, figure, figcaption, main {
 .clear{
 	clear: both;
 }
+#l-main {
+    overflow: hidden;
+}
 /* ------------------------------------
 1-0 header */
 .slicknav_menu {
