@@ -2367,9 +2367,13 @@ a.btn-social i {
 
     } 
    .news-wp-1 .article-news-titles, .news-wp-2 .article-news-titles, .news-wp-3 .article-news-titles, .news-wp-4 .article-news-titles, .news-wp-5 .article-news-titles {
-		padding-top: 0px;
+		
 		margin-bottom: 20px;
 	}
+	 .news-wp-4 .article-news-titles,
+	 .news-wp-5 .article-news-titles{
+		padding-top:25px;
+	 }
   
    
 }  
