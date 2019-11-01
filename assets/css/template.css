@@ -2019,7 +2019,7 @@ a.btn-social i {
 		padding-bottom: 10px;
 		padding-left: 10px;
 		padding-right: 21px;
-		padding-top: 44px;
+		padding-top: 50px;
 		}
     .menu_main li {
         padding: 0 10px;
@@ -2328,7 +2328,13 @@ a.btn-social i {
 
 
 @media (max-width: 768px){
-    
+    .header-top-right div a span {
+		padding-bottom: 40px;
+		padding-left: 21px;
+		padding-right: 21px;
+		padding-top: 40px;
+		
+	}
     .news-us:nth-child(2n+1) .box-load-more,
     .box-load-more {
         text-align: center;
