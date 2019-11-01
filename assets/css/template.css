@@ -670,11 +670,7 @@ span.btn.btn-sm:hover{
     display: table;
     width: 100%;
 }
-.box-news-index-content,
-.box-news-index-thumbs {
-    display: table-cell;
-    vertical-align: top;
-}
+
 /* session-popular */
 .session-popular {
 	clear: both;
@@ -2955,6 +2951,11 @@ a.btn-social i {
 	.box-news-index,.box-news-index-content,.box-news-index-thumbs{
 		display:block;
 		padding:0;
+	}
+	.box-news-index-content,
+	.box-news-index-thumbs {
+		display: table-cell;
+		vertical-align: top;
 	}
 	.box-news-index-content {
 		padding: 0 15px;
