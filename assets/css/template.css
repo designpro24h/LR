@@ -1217,10 +1217,8 @@ article .date-more{
 .module-price-bx{
 
 	position: relative;
-	width: 100%;
-	
 	max-width: 1240px;
-	
+	padding: 0 20px;
 
 	margin: 0 auto;
 }
@@ -1547,7 +1545,7 @@ ul.list-bx {
 }
 /* Content bottom */
 .layer {
-    width: 100%;
+   
     
     background-color: #f6f6f6;
     margin: 0 auto;
@@ -1557,7 +1555,7 @@ ul.list-bx {
 .layer-area{
 	position: relative;
     margin: 0 auto;
-    width: 100%;
+	padding: 0 20px;
     max-width: 1240px;
     text-align: center;
     overflow: hidden;
@@ -2110,6 +2108,9 @@ a.btn-social i {
 	.lst-news-index .box-news-index {
 		margin-top: 40px;
 	}	
+	.nav_footer_top li a {
+		font-size: 12px;
+	}
 }
 
 @media screen and (max-width: 1023px){
