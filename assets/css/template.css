@@ -502,8 +502,8 @@ nav ul > li {
 }
 .caption-thumbs{
 	position: absolute;
-    right: -209px;
-    bottom: -124px;
+    right: 0;
+    bottom: -84px;
     text-align: center;
 }
 .caption-thumbs img{
@@ -2090,8 +2090,7 @@ a.btn-social i {
     }
 	.caption-thumbs{
 		width: 68.125%;
-		position: absolute;
-		right: -145px;
+		
 	}
 	.session-popular .title .btn.btn-sm {
 		margin-left: 10px;
@@ -2143,6 +2142,10 @@ a.btn-social i {
 	}
 	.box-mainimg__inner {
 		padding-bottom: 17vw;
+	}
+	.caption-thumbs {
+		left: 0;
+		margin: 0 auto;
 	}
     .article-news-rtl .btn-secondary {
 		border: none;
