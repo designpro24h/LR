@@ -2097,6 +2097,7 @@ a.btn-social i {
 
 }
 @media screen and  (max-width: 1239px){
+	.news-wp-5 .article-news-content,
     .article-news-content{
         width: 44.048%;
     }
