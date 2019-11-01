@@ -2352,9 +2352,8 @@ a.btn-social i {
         margin: 0 1.5rem;
     }
     #module-content {
-            margin: 0;
-    width: 100%;
-        width: 100%;
+         margin: 0;
+		width: 100%;
     }
 
     .session-popular-bx {
