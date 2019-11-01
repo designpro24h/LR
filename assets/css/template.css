@@ -532,8 +532,8 @@ nav ul > li {
 .box-news-index-thumbs{
     padding-left: 50px;
 }
-.box-thumbs-inne:after{
-        content: "";
+.box-thumbs-inner:after{
+	content: "";
     display: block;
     position: absolute;
     z-index: -1;
