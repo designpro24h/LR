@@ -313,7 +313,7 @@ header {
     color: #fff;
     text-align: center;
     font-weight: bold;
-    padding: 55px 29px 0;
+	padding: 55px 29px 23px;
     letter-spacing: 0.16em;
     position: relative;
 }
@@ -322,7 +322,7 @@ header {
     width: 100%;
     height: 100%;
     position: relative;
-    padding:0;
+    padding: 0px 0 23px;
 }
 
 .header-top-right div a span .fas {
@@ -2003,9 +2003,9 @@ a.btn-social i {
        float: none;
     }
     .header-top-right div a span {
-       padding: 20px;
-		top: 12px;
-    }
+		padding: 0px 20px 10px;
+		
+	}
     .menu_main li {
         padding: 0 10px;
     }
@@ -2101,7 +2101,7 @@ a.btn-social i {
 	}
 	.header-top-right div a span {
     
-		top: 15px;
+		
 	}
 }
 @media screen and (max-width: 1099px){
@@ -2112,7 +2112,7 @@ a.btn-social i {
 
     }
     #pick-up .slick-slider {
-        margin-bottom: 90px;
+        margin-bottom: 0px;
     }
     #slides .slick-slide{
 		
