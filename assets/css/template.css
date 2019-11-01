@@ -2861,7 +2861,7 @@ a.btn-social i {
 		width: 100%;
 		position: relative;
 		bottom: -75px;
-		margin-left: 5vw;
+		margin-left:0;
 	}
 	
 	.caption-thumbs img {padding-top:0;
