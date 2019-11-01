@@ -2024,7 +2024,7 @@ a.btn-social i {
 	 
 	.caption-thumbs{
 		width: 60%;
-		right: 0;
+		right: -145px;
 	}
     .article-news-thumbs {
         width: 55.952%;
@@ -2081,9 +2081,9 @@ a.btn-social i {
 	.caption-thumbs{
 		width: 68.125%;
 		position: absolute;
-		right: 0px;
+		right: -145px;
 	}
-	.title .btn.btn-sm {
+	.session-popular .title .btn.btn-sm {
 		margin-left: 10px;
 		width: 75px;
 	}
