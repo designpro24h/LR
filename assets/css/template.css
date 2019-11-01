@@ -207,7 +207,12 @@ article, aside, footer, header, small, nav, section, figure, figcaption, main {
 .txt-en{
     font-family: 'Roboto Slab', serif;
 }
-
+#l-container:after, 
+#l-main:after,.clear:after{
+    display: block;
+    clear: both;
+    content: "";
+}
 .clear{
 	clear: both;
 }
@@ -2863,6 +2868,12 @@ a.btn-social i {
 	}
 	.box-thumbs-inner {
 		padding: 0px;
+	}
+	.box-thumbs-inner:after {
+		background-size: 100% auto;
+		width: 100%;
+		left: 40px;
+		bottom: -5px;
 	}
 	.caption-thumbs {
 		width: 100%;
