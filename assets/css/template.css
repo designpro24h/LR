@@ -2121,11 +2121,14 @@ a.btn-social i {
 		padding-bottom: 10px;
 		padding-left: 10px;
 		padding-right: 21px;
-		padding-top: 44px;
+		padding-top: 50px;
 		
 	}
 }
 @media screen and (max-width: 1099px){
+	.header-top-right div a span {
+		padding-top: 50px;
+	}
 	 #slides .slick-list {
         overflow: visible;
         margin-left:0px;
