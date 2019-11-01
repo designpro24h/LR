@@ -2010,10 +2010,17 @@ a.btn-social i {
     .header-top-left {
        float: none;
     }
-    .header-top-right div a span {
-		padding: 0px 20px 10px;
+    
+	.header-top-right div a .stick-title-inner {
+		padding: 0px;
 		
 	}
+	.header-top-right div a span {
+		padding-bottom: 10px;
+		padding-left: 10px;
+		padding-right: 21px;
+		padding-top: 44px;
+		}
     .menu_main li {
         padding: 0 10px;
     }
@@ -2111,7 +2118,10 @@ a.btn-social i {
 		width: 75px;
 	}
 	.header-top-right div a span {
-    
+		padding-bottom: 10px;
+		padding-left: 10px;
+		padding-right: 21px;
+		padding-top: 44px;
 		
 	}
 }
