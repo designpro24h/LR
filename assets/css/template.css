@@ -2658,6 +2658,7 @@ a.btn-social i {
 	.evaluates i.fas {
 		font-size: 20px;
 	}
+	
 
 }
 
@@ -2699,6 +2700,9 @@ a.btn-social i {
         left: 7px;
         transition: all 0.3s ease;
     }
+	.module-content-tilte h4 {
+		padding-top: 120px;
+	}
     .is-active.header__menu a span {
         left: 5px;
         background: #456b93;
