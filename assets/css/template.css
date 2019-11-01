@@ -680,7 +680,7 @@ span.btn.btn-sm:hover{
 	clear: both;
     position: relative;
     margin: 0 auto;
-    padding: 170px 0 105px;
+    padding: 150px 0 100px;
     overflow: hidden;
 }
 .session-popular a.btn:before{
@@ -886,7 +886,7 @@ a .btn-green{
     display: block;
     position: absolute;
     background: #f6f6f6;
-    height: 161px;
+    height: 142px;
     right: 0;
     bottom: 0;
     width: 44%;
