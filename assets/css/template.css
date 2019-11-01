@@ -2813,6 +2813,11 @@ a.btn-social i {
     
     
 }
+@media (max-width: 768px){
+	.visible-pc {
+		display: none!important;
+	}
+}
 @media (max-width: 767px){
 	.visible-pc{display:none!important;}
 	.visible-sp {
