@@ -2500,7 +2500,7 @@ a.btn-social i {
 	    width: 100%!important;
 	}
 	/* */
-	.news-us {height:auto;margin-bottom: 80px;}
+	.news-us {height:auto;margin-bottom:0px;}
 	.news-us-left, .news-us-right {
 	    position: relative;
 	    width: 100%;
