@@ -2126,9 +2126,7 @@ a.btn-social i {
 	}
 }
 @media screen and (max-width: 1099px){
-	.header-top-right div a span {
-		padding-top: 50px;
-	}
+	
 	 #slides .slick-list {
         overflow: visible;
         margin-left:0px;
@@ -2410,7 +2408,12 @@ a.btn-social i {
 
 
 @media (max-width: 1024px){
-    
+    .header-top-right div a span {
+		padding-bottom: 40px;
+		padding-left: 21px;
+		padding-right: 21px;
+		padding-top: 40px;
+	}
     .evaluates a {
         padding: 60px 30px 60px 20px;
     }
