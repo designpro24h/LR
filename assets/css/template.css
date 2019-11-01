@@ -457,6 +457,8 @@ nav ul > li {
     max-width: 1240px;
     margin: 0 auto;
 }
+#pick-up,
+.session-popular,
 .article-news-content:after,
 .nav:after,
 .wrp-container:after {
