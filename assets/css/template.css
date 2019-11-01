@@ -532,6 +532,18 @@ nav ul > li {
 .box-news-index-thumbs{
     padding-left: 50px;
 }
+.box-thumbs-inne:after{
+        content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    bottom: -20px;
+    left: 28px;
+    right: 0;
+    background: url(../images/cmn-pct-screen-shadow01.png) left bottom/843px auto no-repeat;
+    width: 843px;
+    height: 136px;
+}
 .box-news-index-thumbs img{
     max-width: 200px;
     height:auto;
@@ -2103,7 +2115,9 @@ a.btn-social i {
     .lst-news-index .grid-6 {
         width: 100%;
     }   
-
+	.session-popular .box-news-index-thumbs {
+		text-align: right;
+	}
 
 	.lst-news-index .box-news-index {
 		margin-top: 40px;
@@ -2114,8 +2128,7 @@ a.btn-social i {
 }
 
 @media screen and (max-width: 1023px){
-	.visible-pc{display:none!important;}
-	.visible-sp{display:block!important;}
+	
     #main-banner{
         background: url(../images/index-bg-main01-pc.png) no-repeat left bottom;
         background-size: cover;
