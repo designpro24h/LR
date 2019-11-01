@@ -2067,7 +2067,8 @@ a.btn-social i {
 		padding-top: 180px;
 	}
     .news-wp-3 .article-news-thumbs {
-        width: 50.773%;
+        
+		width: 55.952%;
     }
     .news-wp-4 .article-news-thumbs{
 		width: 50.773%;
@@ -2156,6 +2157,9 @@ a.btn-social i {
 	#slides .slick-slide{
 		margin: 0 10px;
 		width: 320px !important;
+	}
+	.news-us .visible-pc {
+		display: none !important;
 	}
 	.box-mainimg__inner {
 		padding-bottom: 17vw;
